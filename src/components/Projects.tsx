@@ -8,24 +8,24 @@ import { Github, ExternalLink } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "AI Image Generation App",
-      description: "A web application that uses machine learning to generate unique images based on text descriptions.",
-      technologies: ["React", "Python", "TensorFlow", "Flask"],
-      githubLink: "#",
+      title: "Gym Management System",
+      description: "Full-stack application for gym management with features for member tracking, payment processing, and workout planning.",
+      technologies: ["React", "Node.js", "MongoDB", "Express.js"],
+      githubLink: "https://github.com/saurabhatoliya/gym-management-system",
       liveLink: "#"
     },
     {
-      title: "Data Visualization Dashboard",
-      description: "Interactive dashboard for visualizing complex datasets with filtering and analysis capabilities.",
-      technologies: ["React", "D3.js", "Node.js", "MongoDB"],
-      githubLink: "#",
+      title: "E-commerce Platform",
+      description: "Built a scalable e-commerce platform with product management, cart functionality, and secure payment integration.",
+      technologies: ["Next.js", "MongoDB", "Stripe", "AWS"],
+      githubLink: "https://github.com/saurabhatoliya/ecommerce-platform",
       liveLink: "#"
     },
     {
-      title: "Smart Home Automation System",
-      description: "IoT-based system for controlling home devices using voice commands and machine learning.",
-      technologies: ["Python", "Raspberry Pi", "TensorFlow", "MQTT"],
-      githubLink: "#",
+      title: "AI-based Task Management",
+      description: "Developed an AI-powered task management system with smart prioritization and scheduling features.",
+      technologies: ["Python", "TensorFlow", "Flask", "React"],
+      githubLink: "https://github.com/saurabhatoliya/ai-task-manager",
       liveLink: "#"
     }
   ];

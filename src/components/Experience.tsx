@@ -6,20 +6,28 @@ import { Badge } from "@/components/ui/badge";
 const Experience = () => {
   const experiences = [
     {
-      title: "AI & Data Science Engineer",
-      company: "Personal Projects",
-      duration: "2023 - Present",
+      title: "Software Developer Intern",
+      company: "Binary Brains, TechBinary",
+      duration: "July 2023 - Present",
       location: "Jaipur, India",
-      description: "Working on personal AI and data science projects to build practical experience and enhance skills.",
-      skills: ["Python", "TensorFlow", "PyTorch", "Data Analysis"]
+      description: "Collaborated with senior developers to build and maintain web applications using React.js and Node.js.",
+      skills: ["React.js", "Node.js", "Express.js", "MongoDB"]
     },
     {
-      title: "AI Research Assistant",
-      company: "University Research Lab",
-      duration: "2022 - 2023",
+      title: "Full Stack Developer",
+      company: "Paryavaran Global Sustainability",
+      duration: "Dec 2023 - Mar 2024",
+      location: "Remote",
+      description: "Led the development of environmental sustainability platform using Next.js and MongoDB.",
+      skills: ["Next.js", "MongoDB", "Material UI", "AWS"]
+    },
+    {
+      title: "Technical Lead",
+      company: "JECRC Foundation",
+      duration: "June 2023 - Present",
       location: "Jaipur, India",
-      description: "Assisted in AI research projects, implementing machine learning models and analyzing results.",
-      skills: ["Machine Learning", "Research", "Data Visualization"]
+      description: "Leading technical initiatives and organizing tech events for the student community.",
+      skills: ["Leadership", "Event Management", "Technical Planning"]
     }
   ];
 

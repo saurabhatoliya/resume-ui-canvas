@@ -7,28 +7,28 @@ const Skills = () => {
     {
       category: "Programming Languages",
       skills: [
-        { name: "Python", proficiency: 90 },
-        { name: "JavaScript/TypeScript", proficiency: 85 },
-        { name: "C++", proficiency: 70 },
-        { name: "SQL", proficiency: 80 },
+        { name: "JavaScript", proficiency: 90 },
+        { name: "Python", proficiency: 85 },
+        { name: "Java", proficiency: 75 },
+        { name: "C++", proficiency: 80 },
       ]
     },
     {
-      category: "AI & Machine Learning",
+      category: "Web Technologies",
       skills: [
-        { name: "TensorFlow", proficiency: 85 },
-        { name: "PyTorch", proficiency: 80 },
-        { name: "Scikit-Learn", proficiency: 90 },
-        { name: "Natural Language Processing", proficiency: 75 },
+        { name: "React.js", proficiency: 90 },
+        { name: "Node.js", proficiency: 85 },
+        { name: "Next.js", proficiency: 80 },
+        { name: "Express.js", proficiency: 85 },
       ]
     },
     {
-      category: "Web Development",
+      category: "Tools & Technologies",
       skills: [
-        { name: "React", proficiency: 85 },
-        { name: "Node.js", proficiency: 75 },
-        { name: "HTML/CSS", proficiency: 90 },
-        { name: "Tailwind CSS", proficiency: 85 },
+        { name: "Git/GitHub", proficiency: 90 },
+        { name: "MongoDB", proficiency: 85 },
+        { name: "AWS", proficiency: 75 },
+        { name: "Docker", proficiency: 70 },
       ]
     }
   ];
