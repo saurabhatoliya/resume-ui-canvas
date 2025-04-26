@@ -60,7 +60,7 @@ const Hero = () => {
             <img
               src="/lovable-uploads/8fbedf28-f79b-4167-aae4-8166385954fa.png"
               alt="Saurabh Kumar Atoliya with robots"
-              className="rounded-full shadow-xl w-full max-w-md aspect-square object-cover"
+              className="rounded-full shadow-xl w-64 h-64 object-cover"
             />
           </div>
         </div>
