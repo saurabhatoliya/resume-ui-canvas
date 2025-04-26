@@ -2,8 +2,12 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { Github, Linkedin, Mail } from 'lucide-react';
-import { UserRound } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone, UserRound } from 'lucide-react';
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
 
 const Navigation = () => {
   return (
@@ -45,16 +49,35 @@ const Navigation = () => {
                 </a>
               </Button>
             </div>
-            <Avatar className="w-10 h-10 border-2 border-primary/50">
-              <AvatarImage 
-                src="/path/to/profile-photo.jpg" 
-                alt="Saurabh Kumar Atoliya" 
-                className="object-cover"
-              />
-              <AvatarFallback>
-                <UserRound className="w-6 h-6 text-muted-foreground" />
-              </AvatarFallback>
-            </Avatar>
+            <Popover>
+              <PopoverTrigger asChild>
+                <Button variant="ghost" className="p-0">
+                  <Avatar className="w-10 h-10 border-2 border-primary/50 cursor-pointer hover:border-primary transition-colors">
+                    <AvatarImage 
+                      src="/path/to/profile-photo.jpg" 
+                      alt="Saurabh Kumar Atoliya" 
+                      className="object-cover"
+                    />
+                    <AvatarFallback>
+                      <UserRound className="w-6 h-6 text-muted-foreground" />
+                    </AvatarFallback>
+                  </Avatar>
+                </Button>
+              </PopoverTrigger>
+              <PopoverContent className="w-auto p-4">
+                <div className="space-y-2">
+                  <h4 className="font-medium text-sm">Contact Information</h4>
+                  <div className="flex items-center gap-2 text-sm">
+                    <Phone className="h-4 w-4" />
+                    <span>+91 9928631908</span>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm">
+                    <Mail className="h-4 w-4" />
+                    <span>saurabhatoliya637@gmail.com</span>
+                  </div>
+                </div>
+              </PopoverContent>
+            </Popover>
           </div>
         </div>
       </div>
@@ -63,3 +86,4 @@ const Navigation = () => {
 };
 
 export default Navigation;
+
