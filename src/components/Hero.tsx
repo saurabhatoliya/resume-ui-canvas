@@ -10,16 +10,16 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Content Section */}
           <div className="order-1 md:order-1 text-left">
-            <h1 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-purple-400 text-transparent bg-clip-text">
+            <h1 className="text-3xl sm:text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-purple-400 text-transparent bg-clip-text">
               Saurabh Kumar Atoliya
             </h1>
-            <p className="text-xl sm:text-2xl text-muted-foreground mb-6">
+            <p className="text-lg sm:text-xl text-muted-foreground mb-4">
               AI & Data Science Engineer
             </p>
-            <div className="text-lg text-muted-foreground mb-8">
+            <div className="text-base text-muted-foreground mb-6">
               Hello, my name is Saurabh Kumar Atoliya. I am currently pursuing a B.Tech in Artificial Intelligence and Data Science at JECRC Foundation. I have a deep passion for technology and data, and I am enthusiastic about applying my knowledge and skills to solve complex, real-world problems. With a strong foundation in AI and data science, I am eager to contribute to innovative projects and continue learning in this dynamic field.
             </div>
-            <div className="flex flex-wrap gap-4 mb-8">
+            <div className="flex flex-wrap gap-4 mb-6">
               <Button variant="outline" size="sm" asChild>
                 <a href="tel:+91-9782326450" className="flex items-center gap-2">
                   <Phone className="h-4 w-4" />
