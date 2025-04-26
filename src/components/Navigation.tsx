@@ -32,7 +32,7 @@ const Navigation = () => {
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://linkedin.com/in/saurabhatoliya" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/saurabh-atoliya-841213254/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="h-5 w-5" />
               </a>
             </Button>
