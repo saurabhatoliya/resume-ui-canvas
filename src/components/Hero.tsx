@@ -13,6 +13,9 @@ const Hero = () => {
         <p className="text-xl sm:text-2xl text-muted-foreground mb-8">
           AI & Data Science Engineer
         </p>
+        <div className="text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
+          Hello, my name is Saurabh Kumar Atoliya. I am currently pursuing a B.Tech in Artificial Intelligence and Data Science at JECRC Foundation. I have a deep passion for technology and data, and I am enthusiastic about applying my knowledge and skills to solve complex, real-world problems. With a strong foundation in AI and data science, I am eager to contribute to innovative projects and continue learning in this dynamic field.
+        </div>
         <div className="flex flex-wrap justify-center gap-4 mb-8">
           <Button variant="outline" size="sm" asChild>
             <a href="tel:+91-9782326450" className="flex items-center gap-2">
