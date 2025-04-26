@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -12,9 +13,32 @@ const Hero = () => {
         <p className="text-xl sm:text-2xl text-muted-foreground mb-8">
           AI & Data Science Engineer
         </p>
-        <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Passionate about building intelligent systems and solving complex problems through data science and machine learning.
-        </p>
+        <div className="flex flex-wrap justify-center gap-4 mb-8">
+          <Button variant="outline" size="sm" asChild>
+            <a href="tel:+91-9782326450" className="flex items-center gap-2">
+              <Phone className="h-4 w-4" />
+              +91-9782326450
+            </a>
+          </Button>
+          <Button variant="outline" size="sm" asChild>
+            <a href="mailto:saurabhatoliya637@gmail.com" className="flex items-center gap-2">
+              <Mail className="h-4 w-4" />
+              saurabhatoliya637@gmail.com
+            </a>
+          </Button>
+          <Button variant="outline" size="sm" asChild>
+            <a href="https://linkedin.com/in/saurabhatoliya" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+              <Linkedin className="h-4 w-4" />
+              LinkedIn
+            </a>
+          </Button>
+          <Button variant="outline" size="sm" asChild>
+            <a href="https://github.com/saurabhatoliya" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+              <Github className="h-4 w-4" />
+              GitHub
+            </a>
+          </Button>
+        </div>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" asChild>
             <a href="#projects">View Projects</a>

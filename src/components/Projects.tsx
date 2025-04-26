@@ -8,25 +8,40 @@ import { Github, ExternalLink } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Gym Management System",
-      description: "Full-stack application for gym management with features for member tracking, payment processing, and workout planning.",
-      technologies: ["React", "Node.js", "MongoDB", "Express.js"],
-      githubLink: "https://github.com/saurabhatoliya/gym-management-system",
-      liveLink: "#"
+      title: "Ola Booking Analysis",
+      description: "Comprehensive analysis of Ola ride data using SQL, Excel, and Power BI",
+      details: [
+        "Performed data cleansing and transformation in Excel to ensure data integrity.",
+        "Utilized SQL for advanced querying and exploratory data analysis (EDA) to derive key ride metrics.",
+        "Developed an interactive Power BI dashboard for trend analysis, revenue segmentation, and customer behavior insights.",
+        "Conducted KPI tracking on ride volume, cancellation patterns, payment distribution, and rating comparisons"
+      ],
+      technologies: ["SQL", "Excel", "Power BI", "Data Analysis"],
+      githubLink: "#"
     },
     {
-      title: "E-commerce Platform",
-      description: "Built a scalable e-commerce platform with product management, cart functionality, and secure payment integration.",
-      technologies: ["Next.js", "MongoDB", "Stripe", "AWS"],
-      githubLink: "https://github.com/saurabhatoliya/ecommerce-platform",
-      liveLink: "#"
+      title: "Movie Recommendation System",
+      description: "A Movie Recommendation System that suggests movies based on user preferences",
+      details: [
+        "Built a recommendation system similar to Netflix and Amazon Prime",
+        "Implemented data collection, preprocessing, and exploratory analysis",
+        "Developed machine learning models for personalized recommendations",
+        "Created insights to guide content acquisition decisions"
+      ],
+      technologies: ["HTML", "CSS", "Javascript", "Jupyter Notebook", "Machine Learning"],
+      githubLink: "#"
     },
     {
-      title: "AI-based Task Management",
-      description: "Developed an AI-powered task management system with smart prioritization and scheduling features.",
-      technologies: ["Python", "TensorFlow", "Flask", "React"],
-      githubLink: "https://github.com/saurabhatoliya/ai-task-manager",
-      liveLink: "#"
+      title: "Disease Outbreak Prediction System",
+      description: "Data-driven system to predict potential disease outbreaks",
+      details: [
+        "Designed a system to analyze health, environmental, and demographic factors",
+        "Implemented data collection, preprocessing, and visualization",
+        "Created early detection system for potential outbreaks",
+        "Enhanced resource allocation and containment strategies"
+      ],
+      technologies: ["HTML", "CSS", "Javascript", "Jupyter Notebook", "Machine Learning"],
+      githubLink: "#"
     }
   ];
 
@@ -44,6 +59,11 @@ const Projects = () => {
                 <CardDescription>{project.description}</CardDescription>
               </CardHeader>
               <CardContent>
+                <ul className="list-disc pl-6 mb-4 space-y-2">
+                  {project.details.map((detail, i) => (
+                    <li key={i} className="text-sm">{detail}</li>
+                  ))}
+                </ul>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech, i) => (
                     <Badge key={i} variant="outline">{tech}</Badge>
@@ -54,12 +74,6 @@ const Projects = () => {
                     <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
                       <Github className="mr-2 h-4 w-4" />
                       Code
-                    </a>
-                  </Button>
-                  <Button size="sm" asChild>
-                    <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      Demo
                     </a>
                   </Button>
                 </div>

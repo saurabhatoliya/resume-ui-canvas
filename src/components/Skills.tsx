@@ -5,30 +5,33 @@ import { Progress } from "@/components/ui/progress";
 const Skills = () => {
   const skillCategories = [
     {
-      category: "Programming Languages",
+      category: "Languages",
       skills: [
-        { name: "JavaScript", proficiency: 90 },
-        { name: "Python", proficiency: 85 },
-        { name: "Java", proficiency: 75 },
-        { name: "C++", proficiency: 80 },
+        { name: "C", proficiency: 85 },
+        { name: "C++", proficiency: 85 },
+        { name: "Python", proficiency: 90 },
+        { name: "JavaScript", proficiency: 85 },
+        { name: "HTML/CSS", proficiency: 85 }
       ]
     },
     {
-      category: "Web Technologies",
+      category: "Tech Stacks",
       skills: [
-        { name: "React.js", proficiency: 90 },
-        { name: "Node.js", proficiency: 85 },
-        { name: "Next.js", proficiency: 80 },
-        { name: "Express.js", proficiency: 85 },
+        { name: "Jupyter Notebook", proficiency: 90 },
+        { name: "Machine Learning", proficiency: 85 },
+        { name: "Data Structures", proficiency: 85 },
+        { name: "Algorithms", proficiency: 80 },
+        { name: "DBMS", proficiency: 80 }
       ]
     },
     {
-      category: "Tools & Technologies",
+      category: "Tools & Frameworks",
       skills: [
-        { name: "Git/GitHub", proficiency: 90 },
-        { name: "MongoDB", proficiency: 85 },
-        { name: "AWS", proficiency: 75 },
-        { name: "Docker", proficiency: 70 },
+        { name: "GitHub", proficiency: 85 },
+        { name: "SQL", proficiency: 90 },
+        { name: "WordPress", proficiency: 80 },
+        { name: "Pandas/Numpy", proficiency: 85 },
+        { name: "Tableau/Seaborn", proficiency: 80 }
       ]
     }
   ];
