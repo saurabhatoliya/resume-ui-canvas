@@ -8,17 +8,8 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center pt-16 pb-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          {/* Image Section */}
-          <div className="order-2 md:order-1">
-            <img
-              src="/lovable-uploads/8fbedf28-f79b-4167-aae4-8166385954fa.png"
-              alt="Saurabh Kumar Atoliya with robots"
-              className="rounded-lg shadow-xl w-full max-w-md mx-auto object-cover aspect-square"
-            />
-          </div>
-
           {/* Content Section */}
-          <div className="order-1 md:order-2 text-left">
+          <div className="order-1 md:order-1 text-left">
             <h1 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-purple-400 text-transparent bg-clip-text">
               Saurabh Kumar Atoliya
             </h1>
@@ -62,6 +53,15 @@ const Hero = () => {
                 <a href="mailto:saurabhatoliya637@gmail.com">Contact Me</a>
               </Button>
             </div>
+          </div>
+
+          {/* Image Section */}
+          <div className="order-2 md:order-2">
+            <img
+              src="/lovable-uploads/8fbedf28-f79b-4167-aae4-8166385954fa.png"
+              alt="Saurabh Kumar Atoliya with robots"
+              className="rounded-lg shadow-xl w-full max-w-md mx-auto object-cover aspect-square"
+            />
           </div>
         </div>
       </div>
