@@ -56,11 +56,11 @@ const Hero = () => {
           </div>
 
           {/* Image Section */}
-          <div className="order-2 md:order-2">
+          <div className="order-2 md:order-2 flex justify-center">
             <img
               src="/lovable-uploads/8fbedf28-f79b-4167-aae4-8166385954fa.png"
               alt="Saurabh Kumar Atoliya with robots"
-              className="rounded-lg shadow-xl w-full max-w-md mx-auto object-cover aspect-square"
+              className="rounded-full shadow-xl w-full max-w-md aspect-square object-cover"
             />
           </div>
         </div>
